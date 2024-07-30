@@ -1,0 +1,258 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:serif;
+}
+div.main{
+
+    background-image: url("image/background.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    height: 80vh;
+    position: relative;
+}
+div.box{
+    height:80vh;
+    width: 100%;
+    opacity:0.29;
+    background-color: black;
+    position: absolute;
+    top:0;
+}
+
+nav{
+    max-width: 80vw;
+    margin:auto;
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    height:70px;
+}
+nav img{
+    color:red;
+    width:214px;
+    position:relative;
+    z-index: 10;
+    height: 62px;
+}
+
+ nav button.signin{
+  color: aliceblue;
+  background-color: red;
+  position:relative;
+  z-index: 10;
+    height:50px;
+    width:70px;
+    padding:3px;
+
+}
+nav button.english{
+    color: white;
+    background-color: transparent;
+    position:relative;
+    z-index: 10;
+      height:50px;
+      width:70px;
+      padding:3px;
+  }
+.hero{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:calc(100%-62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    position: relative;
+    z-index: 10;
+    font-size: 30px;
+    gap:10px;
+    padding:192px 30px;
+    
+}
+span.gh{
+    position: relative;
+    font-weight:bolder;
+    font-size:55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input.mail{
+  
+    background-color: black;
+    color:beige;
+    height: 20px;
+    width:100px;
+    padding:5px 3px 5px 3px;
+    border-style: double;
+    justify-content: center;
+    gap: 3px;
+
+}
+button.start{
+    background-color: red;
+    height: 20px;
+    width:100px;
+    padding:3px;
+    border-style: double;
+
+}
+div.separate{
+    background-color:rgb(81, 82, 82);
+    height:10px;
+    
+   
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 50vw;
+    margin:auto;
+    color:white;
+    align-items: center;
+
+    
+}
+.second{
+    display: flex;
+    justify-content: center;
+    max-width: 50vw;
+    margin:auto;
+    color:white;
+    align-items: center;
+}
+
+.third{
+    display: flex;
+    justify-content: center;
+    max-width: 60vw;
+    margin:auto;
+    color:white;
+    align-items: center;
+}
+.forth{
+    display: flex;
+    justify-content: center;
+    max-width: 60vw;
+    margin:auto;
+    color:white;
+    align-items: center;
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width:30vw;
+    position:relative;
+    z-index: 10;
+}
+.secimg .videoone{
+    position:absolute;
+    top:51px;
+    right:0;
+    left:190px;
+}
+.secimg .secimgone{
+    width:30vw;
+    position:relative;
+    z-index: 10;
+    right:90px;
+    left:190px;
+}
+.secimg .videothree{
+    position: absolute;
+    top:20px;
+    right: 90px;
+    left:90px;
+    width:51vw;
+    height: 235px;
+}
+.secimg .secimgthird{
+    width:40vw;
+    position:relative;
+    z-index: 10;
+    right:90px;
+    left:190px;
+    height: 395px;
+}
+
+
+
+span.para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:40px;
+    position:relative;
+    color:aliceblue;
+}
+
+
+span.paras{
+    font-family: Arial;
+    font-size:24px;
+    color: aliceblue;
+}
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background-color: black;
+    color:aliceblue;
+    padding: 34px;
+}
+.faqbox:hover{
+    color:rgb(41, 37, 37);
+    transition: all 1s ease-out;
+    background-color: aqua;
+}
+.faqbox{
+    display:flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 24px;
+    max-width: 40vw;
+    margin: 34px auto;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor:pointer;
+
+}
+span.paratwo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size:40px;
+   position: relative;
+    color:aliceblue;
+    text-align: right;
+   
+}
+footer{
+    color:white;
+    max-width: 60vw;
+    margin:auto;
+    padding:14px;
+}
+footer .question{
+   padding: 34px 0;
+   font-size:20px;
+   
+}
+.footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color:white;
+   
+   
+
+}
+.footer a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+}
+.footer-items{
+    display:flex;
+    flex-direction: column;
+   
+}
